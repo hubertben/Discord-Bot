@@ -1,0 +1,3 @@
+__0: Looking Perfect
+__1: Looking Excellent
+__2: Looking Great
