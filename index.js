@@ -5,8 +5,8 @@ let ammount = 0;
 let print_str = '';
 let user;
 
-const token = 'NjkwMDU0MjYxODc0MjI5MjQ5.XnL16g.2I4tHt5BPoVMbSCiWLtw4bLIDvg';
-const owner_number = '595046817003995136';
+const token = ' - Your Token Number Here - ';
+const owner_number = '- Your Owner Number Here - ';
 const PREFIX = '#';
 
 const version = '1.2.4'
@@ -68,10 +68,6 @@ bot.on('message', msg => {
             case 'trbl':
                 user = msg.mentions.users.first();
                 msg.channel.send(`${user.username} is in Big Trouble`, { tts: true });
-                break;
-
-            case 'simp':
-                msg.channel.send('Yeah I\'m a Simp... I\'m going to be Simply smashing my horse meat all up in every girl I see', { tts: true });
                 break;
 
             case 'bolbi':
